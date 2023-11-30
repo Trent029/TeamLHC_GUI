@@ -1,3 +1,4 @@
+package model;
 /**
  * Checks features in code and changes them
  * @author Sri Nandury
