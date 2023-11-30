@@ -12,6 +12,6 @@ public class LoginController {
 
     @FXML
     private void btnSignUpClicked() throws IOException{
-        
+        App.setRoot("signUp");
     }
 }
