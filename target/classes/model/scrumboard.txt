@@ -1,0 +1,131 @@
+
+
+PROJECT
+NAME: Soap Free Washers
+DESCRIPTION: Make some washers that are soap free.
+SCRUMMASTER: Username: Wes Wilson Email:fgfd
+PRODUCTOWNER: Username: Francis Moez Email:dfgfe
+USERS: [Username: Wes Wilson Email:fgfd, Username: Francis Moez Email:dfgfe]
+COLUMNS:
+[
+TODO
+ [
+  TASKNAME: Group C Assistance
+     DESCRIPTION: Offer assistance regarding implementation to group C
+     USERS:[Username: Wes Wilson Email:fgfd, Username: Francis Moez Email:dfgfe]
+     PRIORITY:1
+     SUBTASKS: [Take notes of current progress, Keep team updated on previous classes, Note impediments from previous classes]
+     COMMENTS[Francis-Moez Commented: Oh wow amazing -- Date 2023-10-26]], 
+PROGRESS
+ [
+  TASKNAME: Stability Enum
+     DESCRIPTION: Create an enum that records the current stability of the server
+     USERS:[Username: Francis Moez Email:dfgfe]
+     PRIORITY:1
+     SUBTASKS: [Connect the enum with the 'server' class, Added: notify servers whenever stability drops to 'poor.']
+     COMMENTS[Wes-Wilson Commented: this is interesting -- Date 2023-10-26]], 
+DONE
+ [
+  TASKNAME: Stability Enum
+     DESCRIPTION: Create an enum that records the current stability of the server
+     USERS:[Username: Francis Moez Email:dfgfe]
+     PRIORITY:1
+     SUBTASKS: [Connect the enum with the 'server' class, Added: notify servers whenever stability drops to 'poor.']
+     COMMENTS[Wes-Wilson Commented: this is interesting -- Date 2023-10-26]]]
+PROJECT-COMMENTS[Wes-Wilson Commented: 2023-10-12 -- Date 2023-10-12]
+
+
+PROJECT
+NAME: Air Computers
+DESCRIPTION: Build computers that can float!
+SCRUMMASTER: Username: Francis Moez Email:dfgfe
+PRODUCTOWNER: Username: Wes Wilson Email:fgfd
+USERS: [Username: Francis Moez Email:dfgfe, Username: Wes Wilson Email:fgfd]
+COLUMNS:
+[
+TODO
+ [
+  TASKNAME: Group C Assistance
+     DESCRIPTION: Offer assistance regarding implementation to group C
+     USERS:[Username: Wes Wilson Email:fgfd, Username: Francis Moez Email:dfgfe]
+     PRIORITY:1
+     SUBTASKS: [Take notes of current progress, Keep team updated on previous classes, Note impediments from previous classes]
+     COMMENTS[Francis-Moez Commented: Oh wow amazing -- Date 2023-10-26]], 
+PROGRESS
+ [
+  TASKNAME: Stability Enum
+     DESCRIPTION: Create an enum that records the current stability of the server
+     USERS:[Username: Francis Moez Email:dfgfe]
+     PRIORITY:1
+     SUBTASKS: [Connect the enum with the 'server' class, Added: notify servers whenever stability drops to 'poor.']
+     COMMENTS[Wes-Wilson Commented: this is interesting -- Date 2023-10-26]], 
+DONE
+ [
+  TASKNAME: Group C Assistance
+     DESCRIPTION: Offer assistance regarding implementation to group C
+     USERS:[Username: Wes Wilson Email:fgfd, Username: Francis Moez Email:dfgfe]
+     PRIORITY:1
+     SUBTASKS: [Take notes of current progress, Keep team updated on previous classes, Note impediments from previous classes]
+     COMMENTS[Francis-Moez Commented: Oh wow amazing -- Date 2023-10-26]]]
+PROJECT-COMMENTS[Wes-Wilson Commented: 2023-10-12 -- Date 2023-10-12]
+
+
+PROJECT
+NAME: Electric Missiles
+DESCRIPTION: Missiles powered by electricity!
+SCRUMMASTER: Username: Atticus Madden Email:amadden@gmail.com
+PRODUCTOWNER: Username: Atticus Finch Email:afinch@gmail.com
+USERS: [Username: Jeff Goldblum Email:asmith@gmail.com, Username: Atticus Finch Email:afinch@gmail.com, Username: Atticus Madden Email:amadden@gmail.com]
+COLUMNS:
+[
+TODO
+ [
+  TASKNAME: Group C Assistance
+     DESCRIPTION: Offer assistance regarding implementation to group C
+     USERS:[Username: Wes Wilson Email:fgfd, Username: Francis Moez Email:dfgfe]
+     PRIORITY:1
+     SUBTASKS: [Take notes of current progress, Keep team updated on previous classes, Note impediments from previous classes]
+     COMMENTS[Francis-Moez Commented: Oh wow amazing -- Date 2023-10-26], 
+  TASKNAME: Avoid civilians Jeff!
+     DESCRIPTION: Not hitting civilians is very important
+     USERS:[Username: Atticus Madden Email:amadden@gmail.com]
+     PRIORITY:1
+     SUBTASKS: [pay attention to people]
+     COMMENTS[Wes-Wilson Commented: this is interesting -- Date 2023-10-26], 
+  TASKNAME: Initialize super algorithm to detonate at warp speed
+     DESCRIPTION: going fast is good
+     USERS:null
+     PRIORITY:1
+     SUBTASKS: null
+     COMMENTS[Atticus-Madden Commented: Avoid Civilians Jeff -- Date 2023-11-07]], 
+DOING
+ [
+  TASKNAME: Stability Enum
+     DESCRIPTION: Create an enum that records the current stability of the server
+     USERS:[Username: Francis Moez Email:dfgfe]
+     PRIORITY:1
+     SUBTASKS: [Connect the enum with the 'server' class, Added: notify servers whenever stability drops to 'poor.']
+     COMMENTS[Wes-Wilson Commented: this is interesting -- Date 2023-10-26], 
+  TASKNAME: Curve the metal to make a cylindrical shape
+     DESCRIPTION: We all like round metal
+     USERS:[Username: Atticus Madden Email:amadden@gmail.com]
+     PRIORITY:1
+     SUBTASKS: [heat up metal, reshape hot metal]
+     COMMENTS[Atticus-Finch Commented: What's a cylinder -- Date 2023-10-26, Wes-Wilson Commented: Not cylindrical enough -- Date 2023-10-17]], 
+DONE
+ [
+  TASKNAME: Group C Assistance
+     DESCRIPTION: Offer assistance regarding implementation to group C
+     USERS:[Username: Wes Wilson Email:fgfd, Username: Francis Moez Email:dfgfe]
+     PRIORITY:1
+     SUBTASKS: [Take notes of current progress, Keep team updated on previous classes, Note impediments from previous classes]
+     COMMENTS[Francis-Moez Commented: Oh wow amazing -- Date 2023-10-26]], 
+ABANDONED
+ [
+  TASKNAME: Make impossible burger possible
+     DESCRIPTION: Yummy burger
+     USERS:[Username: Atticus Madden Email:amadden@gmail.com]
+     PRIORITY:1
+     SUBTASKS: [get best meat, get best buns]
+     COMMENTS[Atticus-Finch Commented: I want food -- Date 2023-10-26]]]
+PROJECT-COMMENTS[Wes-Wilson Commented: 2023-10-12 -- Date 2023-10-12]
