@@ -40,12 +40,14 @@ public class SettingsController {
     @FXML
     private void btnLogoutClicked()throws IOException {
         //save users projects etc
+        //facade logout
         App.setRoot("login");
     }
 
     @FXML
     private void btnSaveClicked()throws IOException{
         //save user info
+        //facade to change user info
     }
     
 }

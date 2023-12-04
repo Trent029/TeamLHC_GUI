@@ -19,6 +19,7 @@ public class ProjectBoardController {
     @FXML
     private void btnLogoutClicked() throws IOException{
         //save users projects etc
+        //basically facade logout
         App.setRoot("login");
     }
     
@@ -26,5 +27,6 @@ public class ProjectBoardController {
     private void btnSettingsClicked() throws IOException{
         App.setRoot("settings");
     }
+    //need to have other projects that can be clicked on
 
 }
