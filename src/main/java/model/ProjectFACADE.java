@@ -25,13 +25,17 @@ public class ProjectFACADE {
         //previous method return type user
         //user = UserList.getInstance().getUser(emailID,password);
         //return user;
-        return UserList.getInstance().getUser(emailID, password);
+        if(UserList.getInstance().getUser(emailID, password)!=null)
+        {
+            user=UserList.getInstance().getUser(emailID, password);
+            return true;
+        }
+        return false;
     }
 
     public Boolean signUp(String firstName, String LastName, String emailID, String password) 
     {
         return UserList.getInstance().add(firstName, LastName, emailID,password);
-
     }
 
     public Boolean addTask(String taskName, String taskDesc, int priority, String title, User tester)
@@ -58,7 +62,7 @@ public class ProjectFACADE {
 
     public User getUserbyName(String firstName, String lastName){
         
-        return user= UserList.getInstance().getUserbyName(firstName,lastName);
+        return UserList.getInstance().getUserbyName(firstName,lastName);
     }
 
     public Project getProject(String name) {
@@ -71,6 +75,11 @@ public class ProjectFACADE {
 
     public ArrayList<Project> getAllProjects() {
         return ProjectBoard.getInstance().getAllProjects();
+    }
+
+    public ArrayList<Project> getProjectByUser(String Email)
+    {
+        return ProjectBoard.getInstance().getProjectByUser(Email);
     }
 
     public void addCommentProject(Project project) {

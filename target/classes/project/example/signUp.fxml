@@ -17,7 +17,7 @@
          <opaqueInsets>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </opaqueInsets></Label>
-      <TextField maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter First Name" translateY="65.0">
+      <TextField fx:id="txt_firstName" maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter First Name" translateY="65.0">
          <font>
             <Font size="28.0" />
          </font>
@@ -26,26 +26,27 @@
          <font>
             <Font size="18.0" />
          </font></Button>
-      <TextField maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Last Name">
+      <TextField fx:id="txt_lastName" maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Last Name">
          <font>
             <Font size="28.0" />
          </font>
       </TextField>
-      <TextField maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Email">
+      <TextField fx:id="txt_Email" maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Email">
          <font>
             <Font size="28.0" />
          </font>
       </TextField>
-      <TextField maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Password">
+      <TextField fx:id="txt_password" maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Password">
          <font>
             <Font size="28.0" />
          </font>
       </TextField>
-      <TextField maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please confirm Password">
+      <TextField fx:id="txt_passwordConfirm" maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please confirm Password">
          <font>
             <Font size="28.0" />
          </font>
       </TextField>
+      <Label fx:id="lbl_error" prefHeight="17.0" prefWidth="214.0" textFill="RED" translateY="55.0" />
     </children>
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

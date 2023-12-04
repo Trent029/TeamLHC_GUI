@@ -35,18 +35,18 @@ public class UserList {
      * @param userPassword The user's password
      * @return The user with the email and password (if both exist)
      */
-    public boolean getUser(String userEmail, String userPassword) {
+    public User getUser(String userEmail, String userPassword) {
         
         for(int i=0;i<users.size();i++)
         {
             //User user = users.get(i);
             if(users.get(i).getEmailID().equalsIgnoreCase(userEmail) && users.get(i).getPassword().equalsIgnoreCase(userPassword))
             {
-                //return users.get(i);
-                return true;
+                return users.get(i);
+                //return true;
             }
         }
-        return false;
+        return null;
     }
 
     /**

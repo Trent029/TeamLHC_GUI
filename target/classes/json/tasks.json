@@ -1,1 +1,140 @@
-[]
+[
+    {
+        "comments": [
+            {
+                "date": "2023-10-26",
+                "commentuserid": "99aa6979-f71c-4db1-9e58-34b5e1351f2c",
+                "comment": "Oh wow amazing"
+            }
+        ],
+        "subTasks": [
+            "Take notes of current progress",
+            "Keep team updated on previous classes",
+            "Note impediments from previous classes"
+        ],
+        "taskDescription": "Offer assistance regarding implementation to group C",
+        "taskPriority": "1",
+        "tester": "bd507ca8-d68d-4e3b-9ba5-e780709d5c4b",
+        "taskName": "Group C Assistance",
+        "title": "When you put a 0 in the program crashes",
+        "userID": [
+            "bd507ca8-d68d-4e3b-9ba5-e780709d5c4b",
+            "99aa6979-f71c-4db1-9e58-34b5e1351f2c"
+        ],
+        "taskID": "b454f548-c654-43a1-a805-9d7bb4b34f8c"
+    },
+    {
+        "comments": [
+            {
+                "date": "2023-10-26",
+                "commentuserid": "bd507ca8-d68d-4e3b-9ba5-e780709d5c4b",
+                "comment": "this is interesting"
+            }
+        ],
+        "subTasks": [
+            "Connect the enum with the 'server' class",
+            "Added: notify servers whenever stability drops to 'poor.'"
+        ],
+        "taskDescription": "Create an enum that records the current stability of the server",
+        "taskPriority": "1",
+        "tester": null,
+        "taskName": "Stability Enum",
+        "title": "Create a UI",
+        "userID": [
+            "99aa6979-f71c-4db1-9e58-34b5e1351f2c"
+        ],
+        "taskID": "0f241e31-c4ca-4f75-9cf3-fb7da18e692f"
+    },
+    {
+        "comments": [
+            {
+                "date": "2023-10-26",
+                "commentuserid": "bd507ca8-d68d-4e3b-9ba5-e780709d5c4b",
+                "comment": "this is interesting"
+            }
+        ],
+        "subTasks": [
+            "pay attention to people"
+        ],
+        "taskDescription": "Not hitting civilians is very important",
+        "taskPriority": "1",
+        "tester": null,
+        "taskName": "Avoid civilians Jeff!",
+        "title": "Must avoid civilians",
+        "userID": [
+            "204c7b41-3f58-46d7-958a-b38c3668ccb5"
+        ],
+        "taskID": "01557ffb-b557-4d7d-ab7a-5579e6d953a3"
+    },
+    {
+        "comments": [
+            {
+                "date": "2023-10-26",
+                "commentuserid": "b338ea17-7fbc-4b75-9ed0-5afa65a3f1ca",
+                "comment": "What's a cylinder"
+            },
+            {
+                "date": "2023-10-17",
+                "commentuserid": "bd507ca8-d68d-4e3b-9ba5-e780709d5c4b",
+                "comment": "Not cylindrical enough"
+            },
+            {
+                "date": "2023-11-07",
+                "commentuserid": "204c7b41-3f58-46d7-958a-b38c3668ccb5",
+                "comment": "How about you do it, Jeff"
+            }
+        ],
+        "subTasks": [
+            "heat up metal",
+            "reshape hot metal"
+        ],
+        "taskDescription": "We all like round metal",
+        "taskPriority": "1",
+        "tester": null,
+        "taskName": "Curve the metal to make a cylindrical shape",
+        "title": "Make cylindrical metal",
+        "userID": [
+            "7ec786af-2167-4c2c-afb4-82e705d7c51a"
+        ],
+        "taskID": "d61e2858-0250-4790-bac1-4585b71404d9"
+    },
+    {
+        "comments": [
+            {
+                "date": "2023-10-26",
+                "commentuserid": "b338ea17-7fbc-4b75-9ed0-5afa65a3f1ca",
+                "comment": "I want food"
+            }
+        ],
+        "subTasks": [
+            "get best meat",
+            "get best buns"
+        ],
+        "taskDescription": "Yummy burger",
+        "taskPriority": "1",
+        "tester": null,
+        "taskName": "Make impossible burger possible",
+        "title": "Make impossible burger possible",
+        "userID": [
+            "204c7b41-3f58-46d7-958a-b38c3668ccb5"
+        ],
+        "taskID": "0e51039d-70c2-4ac4-b27c-7cff6ff85248"
+    },
+    {
+        "comments": [
+            {
+                "date": "2023-11-07",
+                "commentuserid": "204c7b41-3f58-46d7-958a-b38c3668ccb5",
+                "comment": "Avoid Civilians Jeff"
+            }
+        ],
+        "subTasks": null,
+        "taskDescription": "going fast is good",
+        "taskPriority": "1",
+        "tester": null,
+        "taskName": "Initialize super algorithm to detonate at warp speed",
+        "title": "warp speed",
+        "userID": "none",
+        "taskID": "ca2996fc-2267-4743-b75a-b3d9142d65b5"
+    }
+]

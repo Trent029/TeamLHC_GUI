@@ -99,4 +99,24 @@ public class ProjectBoard {
         return projects;
     }
 
+    /**
+     * Get a project by users
+     * @param userEmail The email of a user
+     * @return The selected project
+     */
+    public ArrayList<Project> getProjectByUser(String userEmail) {
+        ArrayList<Project> userProjects = new ArrayList<Project>();
+        for (int i=0; i<projects.size(); i++) 
+        {
+            for(int j=0;j<projects.get(i).getUsers().size();j++)
+            {
+                if(projects.get(i).getUsers().get(i).userEmail.equals(userEmail))
+                {
+                    userProjects.add(projects.get(i));
+                }
+            }
+        }
+        return userProjects;
+    }
+
 }

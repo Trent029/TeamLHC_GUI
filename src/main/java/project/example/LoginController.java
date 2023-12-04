@@ -43,7 +43,7 @@ public class LoginController {
             lbl_error.setText("login successful");
         }
 
-        //App.setRoot("home"); //go to project board of the user logged in
+        App.setRoot("projectBoard"); //go to project board of the user logged in
         
     }
 
