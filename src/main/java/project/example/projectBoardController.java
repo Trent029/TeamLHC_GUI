@@ -5,8 +5,8 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 
-public class projectBoardController {
-    
+public class ProjectBoardController {
+
     @FXML
     private Label lbl_title;
 
@@ -17,16 +17,14 @@ public class projectBoardController {
     private Button settingsButton;
 
     @FXML
-    private void btnLogoutClicked()throws IOException{
-        //save info
+    private void btnLogoutClicked() throws IOException{
+        //save users projects etc
         App.setRoot("login");
     }
-
+    
     @FXML
-    private void btnSettingsClicked()throws IOException{
-        //App.setRoot("settings");
+    private void btnSettingsClicked() throws IOException{
+        App.setRoot("settings");
     }
 
-
-    
 }
