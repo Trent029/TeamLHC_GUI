@@ -1,13 +1,13 @@
 package model;
 public class DataConstants {
-    protected static final String USER_FILE_NAME = "json/users.json";
+    protected static final String USER_FILE_NAME = "src/main/java/json/users.json";
 	protected static final String USER_ID = "uuid";
 	protected static final String USER_FIRST_NAME = "firstName";
 	protected static final String USER_LAST_NAME = "lastName";
     protected static final String USER_EMAIL = "userEmail";
     protected static final String USER_PASSWORD = "userPassword";
 
-    protected static final String PROJECT_FILE_NAME = "json/projects.json";
+    protected static final String PROJECT_FILE_NAME = "src/main/java/json/projects.json";
     protected static final String PROJECT_ID= "projectID";
     protected static final String PROJECT_USERS="userids";
     protected static final String PROJECT_USER_SCRUMMASTER = "scrummaster";
@@ -22,7 +22,7 @@ public class DataConstants {
     protected static final String PROJECT_COMMENT_DATE = "date";
     protected static final String PROJECT_COMMENT_STRING = "comment";
 
-    protected static final String TASK_FILE_NAME = "json/tasks.json";
+    protected static final String TASK_FILE_NAME = "src/main/java/json/tasks.json";
     protected static final String TASK_ID= "taskID";
     protected static final String TASK_USER_ID="userID";
     protected static final String TASK_NAME="taskName";

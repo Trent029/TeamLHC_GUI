@@ -19,7 +19,7 @@
          <opaqueInsets>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </opaqueInsets></Label>
-      <TextField maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Email" translateY="90.0">
+      <TextField fx:id="txtusername" maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Email" translateY="90.0">
          <font>
             <Font size="28.0" />
          </font>
@@ -42,11 +42,19 @@
             <Font size="15.0" />
          </font>
       </Hyperlink>
-      <TextField maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Password" translateY="-55.0">
+      <TextField fx:id="txtpassword" maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Password" translateY="-55.0">
          <font>
             <Font size="28.0" />
          </font>
       </TextField>
+      <Label fx:id="lbl_error" alignment="TOP_CENTER" prefHeight="21.0" prefWidth="204.0" textFill="#fd0606" translateY="-70.0">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <opaqueInsets>
+            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+         </opaqueInsets>
+      </Label>
     </children>
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />

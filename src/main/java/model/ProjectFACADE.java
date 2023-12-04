@@ -10,10 +10,22 @@ public class ProjectFACADE {
     private ProjectBoard projectBoard;
     private Task task;
     private Project project;
+    private static ProjectFACADE projectFACADE;
 
-    public User login(String emailID, String password) {
-        user = UserList.getInstance().getUser(emailID,password);
-        return user;
+    public static ProjectFACADE getInstance()
+    {
+        if(projectFACADE==null)
+        {
+            projectFACADE = new ProjectFACADE();
+        }
+        return projectFACADE;
+    }
+
+    public boolean login(String emailID, String password) {
+        //previous method return type user
+        //user = UserList.getInstance().getUser(emailID,password);
+        //return user;
+        return UserList.getInstance().getUser(emailID, password);
     }
 
     public Boolean signUp(String firstName, String LastName, String emailID, String password) 

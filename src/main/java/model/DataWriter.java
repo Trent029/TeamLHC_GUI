@@ -21,7 +21,7 @@ public class DataWriter extends DataConstants
 			jsonUsers.add(getUserJSON(userList.get(i)));
 		}
 		
-        try (FileWriter file = new FileWriter("json/users.json")) {
+        try (FileWriter file = new FileWriter(USER_FILE_NAME)) {
  
             file.write(jsonUsers.toJSONString());
             file.flush();
@@ -83,7 +83,8 @@ public class DataWriter extends DataConstants
             {
                 JSONObject comment = new JSONObject();
                 comment.put(TASK_COMMENT_USER_ID,task.getTaskComments().get(i).getUserID().toString());
-                comment.put(TASK_COMMENT_DATE,task.getTaskComments().get(i).getDate().toString());
+                //comment.put(TASK_COMMENT_DATE,task.getTaskComments().get(i).getDate().toString());
+                comment.put(TASK_COMMENT_DATE,"date");
                 comment.put(TASK_COMMENT_STRING,task.getTaskComments().get(i).getComment());
                 taskComments.add(comment);
                 taskDetails.put(TASK_COMMENT, taskComments);
@@ -192,7 +193,8 @@ public class DataWriter extends DataConstants
         for (int i=0; i<project.getComments().size(); i++) {
             JSONObject comment = new JSONObject();
             comment.put(PROJECT_COMMENT_USER_ID, project.getComments().get(i).getUserID().toString());
-            comment.put(PROJECT_COMMENT_DATE, project.getComments().get(i).getDate().toString());
+            //comment.put(PROJECT_COMMENT_DATE, project.getComments().get(i).getDate().toString());
+            comment.put(PROJECT_COMMENT_DATE,"date");
             comment.put(PROJECT_COMMENT_STRING, project.getComments().get(i).getComment());
             comments.add(comment);
         }

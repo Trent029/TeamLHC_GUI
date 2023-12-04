@@ -12,14 +12,14 @@
 
 <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="683" prefWidth="960" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.example.LoginController">
     <children>
-        <Label alignment="TOP_CENTER" text="LHC PROJECT MANAGER" translateY="50.0">
+        <Label alignment="TOP_CENTER" text="Projects" translateY="50.0">
          <font>
             <Font size="65.0" />
          </font>
          <opaqueInsets>
             <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
          </opaqueInsets></Label>
-      <TextField fx:id="txtusername" maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Email" translateY="90.0">
+      <TextField maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Email" translateY="90.0">
          <font>
             <Font size="28.0" />
          </font>
@@ -42,19 +42,11 @@
             <Font size="15.0" />
          </font>
       </Hyperlink>
-      <TextField fx:id="txtpassword" maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Password" translateY="-55.0">
+      <TextField maxWidth="350.0" prefHeight="60.0" prefWidth="65.0" promptText="Please enter Password" translateY="-55.0">
          <font>
             <Font size="28.0" />
          </font>
       </TextField>
-      <Label fx:id="lbl_error" alignment="TOP_CENTER" prefHeight="21.0" prefWidth="204.0" textFill="#fd0606" translateY="-70.0">
-         <font>
-            <Font size="15.0" />
-         </font>
-         <opaqueInsets>
-            <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
-         </opaqueInsets>
-      </Label>
     </children>
     <padding>
         <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
