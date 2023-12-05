@@ -67,8 +67,8 @@ public class SignUpController {
         {
             lbl_error.setText("Login Successful");
         }
+        //adds to json!!! doesn't do it yet
 
-        //User user = projectFACADE.getUser();
         App.setRoot("projectBoard");
         
 
