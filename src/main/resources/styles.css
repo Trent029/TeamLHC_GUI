@@ -9,3 +9,8 @@
     -fx-background-color: #7B7F80;
     -fx-text-fill: white;
 }
+
+.unique {
+    -fx-background-color: pink;
+    -fx-text-fill: blue;
+}
